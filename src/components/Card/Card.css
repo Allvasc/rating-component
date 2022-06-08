@@ -1,0 +1,101 @@
+.card-body {
+    width: 340px;
+    height: 340px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-container {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #343d4a8c;
+    border: none;
+}
+
+.star-icon {
+    width: 13px;
+}
+
+.title {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    width: 100%;
+    margin-top: 0;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.numeric-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #343d4a8c;
+    border: none;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.numeric-button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.numeric-button:active {
+    background-color: #7d8798;
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    margin: 20px auto auto;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    height: 35px;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
